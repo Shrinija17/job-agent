@@ -1,0 +1,60 @@
+name: Job Agent
+
+on:
+  schedule:
+    # Runs every 4 hours (UTC): 3am, 7am, 11am, 3pm, 7pm, 11pm PST
+    - cron: '0 2,6,10,14,18,22 * * *'
+  workflow_dispatch: # Allow manual runs from GitHub UI
+
+jobs:
+  hunt:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Create data directory
+        run: |
+          mkdir -p data output
+          echo '{}' > data/seen_jobs.json
+
+      - name: Restore seen jobs cache
+        uses: actions/cache@v4
+        with:
+          path: data/seen_jobs.json
+          key: seen-jobs-${{ github.run_number }}
+          restore-keys: seen-jobs-
+
+      - name: Copy base resume
+        run: |
+          mkdir -p data
+          if [ ! -f data/base_resume.md ]; then
+            echo "Base resume not found in data/, using default"
+          fi
+
+      - name: Run Job Agent
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          APIFY_API_TOKEN: ${{ secrets.APIFY_API_TOKEN }}
+          NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+        run: python main.py --no-email --top 10
+
+      - name: Upload output artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: job-agent-output-${{ github.run_number }}
+          path: output/
+          retention-days: 7
