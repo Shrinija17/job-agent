@@ -63,7 +63,7 @@ exclude_keywords:
   - "maintenance planner"
   - "facilities"
 
-exclude_experience_years: 5
+exclude_experience_years: 3
 
 scrapers:
   linkedin:

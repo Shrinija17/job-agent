@@ -104,12 +104,13 @@ class JobFilter:
         kw_hits = sum(1 for kw in self.include_kw if kw in text_lower)
         score += min(30, kw_hits * 3)
 
-        # Seniority penalty — these roles are too senior
-        senior_prefixes = ["senior", "sr.", "sr ", "staff", "lead", "principal", "director", "vp", "head of", "manager,"]
-        for prefix in senior_prefixes:
-            if title_lower.startswith(prefix) or f", {prefix}" in title_lower:
-                score -= 20
-                break
+        # HARD BLOCK — skip senior roles entirely
+        senior_words = ["senior", "sr.", "sr ", "staff", "lead", "principal",
+                       "director", "vp", "head of", "chief", "manager,",
+                       "managing director", "team lead"]
+        for word in senior_words:
+            if word in title_lower:
+                return 0  # Completely exclude
 
         # Intern penalty — too junior
         if "intern" in title_lower:
