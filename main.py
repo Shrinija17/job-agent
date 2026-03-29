@@ -143,7 +143,7 @@ def run_daily(config: dict, dry_run: bool = False, send_email: bool = True, top_
 
     # 3. Select best resume + Tailor
     print("📝 Selecting resumes & tailoring...\n")
-    catalog_dir = config.get("resume_catalog_dir", "/Users/shrinija/Career/Resumes/ATS-2026/")
+    catalog_dir = config.get("resume_catalog_dir", "data/resumes/")
     selector = ResumeSelector(catalog_dir)
 
     today = datetime.now().strftime("%Y-%m-%d")
@@ -240,7 +240,7 @@ def run_manual(config: dict):
     company = input("Company: ").strip() or "Unknown Company"
 
     # Select best resume
-    catalog_dir = config.get("resume_catalog_dir", "/Users/shrinija/Career/Resumes/ATS-2026/")
+    catalog_dir = config.get("resume_catalog_dir", "data/resumes/")
     selector = ResumeSelector(catalog_dir)
     resume_name, resume_text = selector.select_best(job_title, jd_text)
     print(f"\n📄 Best resume match: {resume_name}")
@@ -315,7 +315,7 @@ def run_url(config: dict, url: str):
     print(f"  Company: {company}")
 
     # Select best resume
-    catalog_dir = config.get("resume_catalog_dir", "/Users/shrinija/Career/Resumes/ATS-2026/")
+    catalog_dir = config.get("resume_catalog_dir", "data/resumes/")
     selector = ResumeSelector(catalog_dir)
     resume_name, resume_text = selector.select_best(title, description)
     print(f"  Resume: {resume_name}\n")

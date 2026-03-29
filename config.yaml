@@ -87,7 +87,7 @@ scrapers:
 
 top_n_to_tailor: 10
 
-resume_catalog_dir: "/Users/shrinija/Career/Resumes/ATS-2026/"
+resume_catalog_dir: "data/resumes/"
 
 notion:
   enabled: true
