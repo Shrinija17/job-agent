@@ -1,0 +1,82 @@
+SHRINIJA KUMMARI
+Seattle, WA | +1 (201) 241-5870 | shrinijakummari1997@gmail.com
+linkedin.com/in/shrinija-kummari | github.com/Shrinija17
+
+================================================================================
+SUMMARY
+================================================================================
+
+Integrated Marketing professional with 2+ years of experience developing and executing data-driven integrated marketing strategies, driving user acquisition, and optimizing cross-channel campaign performance at a YC-backed fintech startup and EA Games. Built automated analytics dashboards, marketing attribution systems, and AI-powered content engines that improved conversion outcomes by 40+ customers per quarter. Combines MBA-level strategic planning with hands-on technical skills in Python, SQL, BigQuery, and AI/ML to scale integrated marketing initiatives from concept to execution.
+
+================================================================================
+SKILLS
+================================================================================
+
+Integrated Marketing & Strategy: Integrated Marketing Strategy, Cross-Channel Campaign Management, Funnel Optimization, A/B Testing, Conversion Rate Optimization (CRO), User Acquisition, Lifecycle Marketing, Retention Analysis, Go-to-Market Strategy, PLG (Product-Led Growth)
+
+Marketing Analytics & Performance: Campaign Performance Analysis, Marketing Attribution, CAC/LTV Modeling, ROI Analysis, Google Analytics 4, SEMrush, UTM Tracking, Multi-Touch Attribution, Cohort Analysis
+
+AI & Marketing Automation: Large Language Models (LLMs), Prompt Engineering, AI-Powered Marketing Automation, Retrieval-Augmented Generation (RAG), Multi-Agent AI Systems, ChatGPT/Claude/Gemini for Marketing
+
+Content & SEO: SEO/AEO Strategy, Content Marketing, Programmatic SEO, Competitive Intelligence, Social Media Strategy (LinkedIn, YouTube, Instagram, X)
+
+Data & Technical: Python (Pandas, NumPy, Plotly), SQL (BigQuery, CTEs, Window Functions), Google Cloud Platform (Cloud Run, Cloud Functions, BigQuery), ETL Pipelines, API Integrations
+
+Visualization & BI: Tableau, Power BI, Streamlit Dashboards, Plotly, Advanced Excel (Pivot Tables, VLOOKUP)
+
+================================================================================
+EXPERIENCE
+================================================================================
+
+JUSTPAID (YC W23) — FinTech
+Integrated Marketing Manager | Jul 2025 – Present | Remote, USA
+
+- Drove integrated marketing strategies for an AI-native billing platform; analyzed acquisition funnels, identified friction points, and implemented changes that improved conversion outcomes by 40+ customers per quarter
+- Built a real-time marketing analytics dashboard (Streamlit + BigQuery + Cloud Run) consolidating data from 4 social platforms (YouTube, Instagram, LinkedIn, X), enabling integrated campaign performance monitoring and replacing 10+ hours/week of manual reporting
+- Developed AI-powered content automation pipelines using LLMs, scaling content output 3x without additional headcount to support integrated marketing campaigns
+- Designed and tracked KPI frameworks for CAC, LTV, conversion rates, and channel ROI across integrated paid and organic campaigns
+- Led SEO/AEO strategy using SEMrush: competitive keyword research, content gap analysis, and AI answer engine optimization to capture emerging search channels (ChatGPT, Perplexity, Gemini) as part of a holistic integrated marketing approach
+- Built marketing attribution system to measure channel-level revenue contribution, enabling data-backed budget allocation decisions for integrated campaigns
+- Automated daily data collection pipelines via Cloud Functions + Cloud Scheduler, ensuring always-current analytics for leadership to inform integrated marketing decisions
+
+ELECTRONIC ARTS (EA GAMES)
+Business Development Analyst — Analytics | Mar 2022 – Aug 2023 | India
+
+- Analyzed user engagement, retention, and conversion metrics to identify integrated growth opportunities; recommendations improved operational efficiency by 10%
+- Designed automated Tableau dashboards tracking 15+ KPIs, reducing manual reporting effort by 40% and enabling real-time stakeholder decisions for marketing and business development
+- Conducted A/B analysis on outreach strategies, creating targeted campaigns that generated 40+ additional customer conversions per quarter
+- Presented integrated growth insights to senior leadership, translating complex data into actionable go-to-market recommendations
+
+CEIPAL SOLUTIONS PVT. LTD.
+Business Development Analyst | Mar 2021 – Mar 2022 | India
+
+- Optimized CRM analytics with advanced SQL queries, improving data retrieval efficiency by 30% and accelerating integrated growth reporting
+- Analyzed sales funnel conversion trends and customer behavior data to design targeted outreach strategies, boosting qualified leads for marketing campaigns
+- Collaborated with product teams to turn customer feedback into retention-driving product enhancements, supporting integrated customer lifecycle management
+
+================================================================================
+PROJECTS
+================================================================================
+
+AI-Powered Social Media Analytics Platform | Python, Streamlit, BigQuery, Cloud Run
+- Built end-to-end marketing intelligence platform with automated data collection from YouTube, Instagram, LinkedIn, and X APIs; deployed on Google Cloud with real-time KPI tracking and QoQ comparison dashboards
+
+Multi-Agent AI Research System | Python, Claude API, LangChain
+- Developed a 3-agent pipeline (Researcher → Writer → Reviewer) for automated content research with depth control, streaming output, and PDF/markdown export
+
+RAG-Based Document Intelligence Chatbot | Python, LangChain, ChromaDB, Claude
+- Built a Retrieval-Augmented Generation system with semantic search, source citations, and modular architecture for knowledge management
+
+================================================================================
+EDUCATION
+================================================================================
+
+Baruch College, Zicklin School of Business | May 2025
+M.S. in Data Analytics | New York, NY
+Coursework: Applied Generative AI, Data Mining, Big Data, NLP, Statistics, Programming for Analytics
+
+Institute of Public Enterprise | May 2021
+Master of Business Administration (MBA) | India
+
+VIT University | April 2018
+Bachelor of Business Administration (BBA) | India

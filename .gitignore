@@ -2,7 +2,7 @@
 .venv/
 __pycache__/
 *.pyc
-output/
+output/*.log
 data/seen_jobs.json
 /tmp/
-*.pdf
+# keep output PDFs in repo
