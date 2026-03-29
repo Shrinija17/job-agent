@@ -1,0 +1,144 @@
+import os
+import smtplib
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
+from email.mime.application import MIMEApplication
+from datetime import datetime
+from pathlib import Path
+from scrapers.base import Job
+
+
+class EmailNotifier:
+    """Send a morning digest email with tailored resumes attached."""
+
+    def __init__(self, config: dict):
+        self.recipient = config.get("recipient", "")
+        self.subject_prefix = config.get("subject_prefix", "[Job Agent]")
+        self.gmail_address = os.getenv("GMAIL_ADDRESS", "").strip()
+        self.gmail_password = os.getenv("GMAIL_APP_PASSWORD", "").strip()
+
+    @property
+    def is_configured(self) -> bool:
+        return bool(self.gmail_address and self.gmail_password and self.recipient)
+
+    def send_digest(
+        self,
+        jobs: list[Job],
+        pdf_paths: list[str],
+        match_analyses: list[str],
+    ):
+        """Send an HTML email with job summary table and attached PDFs."""
+        if not self.is_configured:
+            print("  [Email] Skipped — Gmail not configured in .env")
+            self._save_local_report(jobs, pdf_paths, match_analyses)
+            return
+
+        today = datetime.now().strftime("%B %d, %Y")
+        subject = f"{self.subject_prefix} {len(jobs)} jobs found — {today}"
+
+        html = self._build_html(jobs, pdf_paths, match_analyses, today)
+
+        msg = MIMEMultipart()
+        msg["From"] = self.gmail_address
+        msg["To"] = self.recipient
+        msg["Subject"] = subject
+        msg.attach(MIMEText(html, "html"))
+
+        # Attach PDFs
+        for pdf_path in pdf_paths:
+            path = Path(pdf_path)
+            if path.exists():
+                with open(path, "rb") as f:
+                    attachment = MIMEApplication(f.read(), _subtype="pdf")
+                    attachment.add_header(
+                        "Content-Disposition", "attachment", filename=path.name
+                    )
+                    msg.attach(attachment)
+
+        try:
+            with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
+                server.login(self.gmail_address, self.gmail_password)
+                server.send_message(msg)
+            print(f"  [Email] Sent digest to {self.recipient}")
+        except Exception as e:
+            print(f"  [Email] Failed to send: {e}")
+            self._save_local_report(jobs, pdf_paths, match_analyses)
+
+    def _build_html(
+        self,
+        jobs: list[Job],
+        pdf_paths: list[str],
+        match_analyses: list[str],
+        today: str,
+    ) -> str:
+        rows = ""
+        for i, job in enumerate(jobs):
+            analysis = match_analyses[i] if i < len(match_analyses) else ""
+            pdf_name = Path(pdf_paths[i]).name if i < len(pdf_paths) else "N/A"
+            score_color = (
+                "#22c55e" if job.score >= 60 else "#eab308" if job.score >= 40 else "#ef4444"
+            )
+
+            rows += f"""
+            <tr>
+                <td style="padding:8px;border-bottom:1px solid #eee;">
+                    <a href="{job.url}" style="color:#2563eb;text-decoration:none;font-weight:600;">{job.title}</a>
+                </td>
+                <td style="padding:8px;border-bottom:1px solid #eee;">{job.company}</td>
+                <td style="padding:8px;border-bottom:1px solid #eee;">{job.location}</td>
+                <td style="padding:8px;border-bottom:1px solid #eee;">
+                    <span style="color:{score_color};font-weight:600;">{job.score:.0f}</span>
+                </td>
+                <td style="padding:8px;border-bottom:1px solid #eee;font-size:12px;">{analysis}</td>
+                <td style="padding:8px;border-bottom:1px solid #eee;font-size:11px;">{pdf_name}</td>
+            </tr>"""
+
+        return f"""
+        <html>
+        <body style="font-family:Arial,sans-serif;max-width:900px;margin:0 auto;padding:20px;">
+            <h2 style="color:#1e293b;">Job Agent Report — {today}</h2>
+            <p style="color:#64748b;">{len(jobs)} new jobs found and tailored. PDFs attached.</p>
+            <table style="width:100%;border-collapse:collapse;margin-top:16px;">
+                <thead>
+                    <tr style="background:#f1f5f9;">
+                        <th style="padding:8px;text-align:left;">Job Title</th>
+                        <th style="padding:8px;text-align:left;">Company</th>
+                        <th style="padding:8px;text-align:left;">Location</th>
+                        <th style="padding:8px;text-align:left;">Score</th>
+                        <th style="padding:8px;text-align:left;">Match</th>
+                        <th style="padding:8px;text-align:left;">Resume PDF</th>
+                    </tr>
+                </thead>
+                <tbody>{rows}</tbody>
+            </table>
+            <p style="color:#94a3b8;font-size:12px;margin-top:24px;">
+                Generated by Job Agent • Tailored with Gemini • Apply within 24 hours for best results
+            </p>
+        </body>
+        </html>
+        """
+
+    def _save_local_report(
+        self,
+        jobs: list[Job],
+        pdf_paths: list[str],
+        match_analyses: list[str],
+    ):
+        """Save report locally when email isn't configured."""
+        today = datetime.now().strftime("%Y-%m-%d")
+        report_path = Path("output") / f"report_{today}.md"
+
+        lines = [f"# Job Agent Report — {today}\n"]
+        for i, job in enumerate(jobs):
+            analysis = match_analyses[i] if i < len(match_analyses) else ""
+            pdf = pdf_paths[i] if i < len(pdf_paths) else "N/A"
+            lines.append(f"## {i+1}. {job.title} @ {job.company}")
+            lines.append(f"- **Score**: {job.score:.0f}/100")
+            lines.append(f"- **Location**: {job.location}")
+            lines.append(f"- **URL**: {job.url}")
+            lines.append(f"- **Match**: {analysis}")
+            lines.append(f"- **Resume**: {pdf}")
+            lines.append("")
+
+        report_path.write_text("\n".join(lines))
+        print(f"  [Report] Saved locally to {report_path}")

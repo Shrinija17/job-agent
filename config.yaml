@@ -1,0 +1,101 @@
+job_titles:
+  - "Growth Marketing Manager"
+  - "Growth Marketing Analyst"
+  - "Business Intelligence Engineer"
+  - "BI Analyst"
+  - "Data Analyst"
+  - "Marketing Data Analyst"
+  - "Business Analyst"
+  - "Financial Analyst"
+  - "Marketing Analyst"
+  - "Digital Marketing Analyst"
+  - "Social Media Analyst"
+  - "Analytics Engineer"
+  - "Product Analyst"
+  - "AI Marketing Specialist"
+
+locations:
+  - "Remote"
+  - "United States"
+  - "Hybrid"
+
+include_keywords:
+  - "SQL"
+  - "Python"
+  - "BigQuery"
+  - "Tableau"
+  - "Excel"
+  - "growth marketing"
+  - "SEO"
+  - "content strategy"
+  - "AI"
+  - "LLM"
+  - "B2B SaaS"
+  - "fintech"
+  - "dashboard"
+  - "ETL"
+  - "data pipeline"
+  - "marketing ROI"
+  - "campaign optimization"
+  - "YC"
+  - "startup"
+  - "BizOps"
+  - "strategy & operations"
+
+exclude_keywords:
+  - "insurance"
+  - "underwriting"
+  - "credit analysis"
+  - "private credit"
+  - "manufacturing"
+  - "supply chain"
+  - "HVAC"
+  - "data center"
+  - "network capacity"
+  - "US citizenship required"
+  - "must be a US citizen"
+  - "healthcare billing"
+  - "clinical"
+  - "nursing"
+  - "revenue cycle"
+  - "investment banking"
+  - "private equity"
+  - "maintenance planner"
+  - "facilities"
+
+exclude_experience_years: 5
+
+scrapers:
+  linkedin:
+    enabled: true
+    max_results: 20
+  amazon:
+    enabled: true
+    max_results: 15
+  builtin:
+    enabled: true
+    max_results: 20
+  yc_jobs:
+    enabled: true
+    max_results: 20
+  greenhouse_lever:
+    enabled: true
+    max_results: 20
+  google_jobs:
+    enabled: true
+    max_results: 20
+
+top_n_to_tailor: 10
+
+resume_catalog_dir: "/Users/shrinija/Career/Resumes/ATS-2026/"
+
+notion:
+  enabled: true
+  database_id: "dca3d96ee6a04180beb0de06eafb2918"
+
+email:
+  recipient: "shrinijakummari1997@gmail.com"
+  subject_prefix: "[Job Agent]"
+
+output_dir: "output"
+seen_jobs_file: "data/seen_jobs.json"
