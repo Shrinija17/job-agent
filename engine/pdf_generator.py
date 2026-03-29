@@ -12,14 +12,21 @@ CONTENT_W = PAGE_W - LEFT - RIGHT  # 190
 class ResumePDF(FPDF):
     """Single-page ATS-friendly resume PDF."""
 
+    FONT = "Helvetica"  # Built-in, works everywhere (visually identical to Arial)
+
     def __init__(self):
         super().__init__()
         self.set_auto_page_break(auto=False)
 
+        # Try macOS Arial first (nicer), fall back to built-in Helvetica
         font_dir = "/System/Library/Fonts/Supplemental"
-        self.add_font("Arial", "", f"{font_dir}/Arial.ttf", uni=True)
-        self.add_font("Arial", "B", f"{font_dir}/Arial Bold.ttf", uni=True)
-        self.add_font("Arial", "I", f"{font_dir}/Arial Italic.ttf", uni=True)
+        try:
+            self.add_font("Arial", "", f"{font_dir}/Arial.ttf", uni=True)
+            self.add_font("Arial", "B", f"{font_dir}/Arial Bold.ttf", uni=True)
+            self.add_font("Arial", "I", f"{font_dir}/Arial Italic.ttf", uni=True)
+            ResumePDF.FONT = "Arial"
+        except (FileNotFoundError, OSError):
+            ResumePDF.FONT = "Helvetica"  # Built-in, no TTF needed
 
 
 class PDFGenerator:
@@ -47,21 +54,21 @@ class PDFGenerator:
 
             # Name (first line)
             if i == 0:
-                pdf.set_font("Arial", "B", 12)
+                pdf.set_font(ResumePDF.FONT, "B", 12)
                 pdf.cell(CONTENT_W, 4.5, line, ln=True, align="C")
                 i += 1
                 continue
 
             # Contact info line (contains | and email/@)
             if i <= 2 and "|" in line and ("@" in line or "+" in line):
-                pdf.set_font("Arial", "", 7)
+                pdf.set_font(ResumePDF.FONT, "", 7)
                 pdf.cell(CONTENT_W, 3, line, ln=True, align="C")
                 i += 1
                 continue
 
             # Links line (linkedin, github)
             if i <= 3 and ("linkedin" in line.lower() or "github" in line.lower()):
-                pdf.set_font("Arial", "", 7)
+                pdf.set_font(ResumePDF.FONT, "", 7)
                 pdf.cell(CONTENT_W, 3, line, ln=True, align="C")
                 i += 1
                 continue
@@ -76,7 +83,7 @@ class PDFGenerator:
                 y = pdf.get_y()
                 pdf.line(LEFT, y, PAGE_W - RIGHT, y)
                 pdf.ln(0.5)
-                pdf.set_font("Arial", "B", 8.5)
+                pdf.set_font(ResumePDF.FONT, "B", 8.5)
                 pdf.set_x(LEFT)
                 pdf.cell(CONTENT_W, 3.5, line.upper(), ln=True)
                 i += 1
@@ -87,7 +94,7 @@ class PDFGenerator:
             # Company header (mostly uppercase + contains — dash)
             if self._is_company_header(line):
                 pdf.ln(1)
-                pdf.set_font("Arial", "B", 7.5)
+                pdf.set_font(ResumePDF.FONT, "B", 7.5)
                 pdf.set_x(LEFT)
                 pdf.multi_cell(CONTENT_W, 3, line)
                 i += 1
@@ -95,7 +102,7 @@ class PDFGenerator:
 
             # Role/title line (italic — contains | for date/location, not a bullet)
             if "|" in line and not line.startswith("-") and not self._is_project_header(line):
-                pdf.set_font("Arial", "I", 7)
+                pdf.set_font(ResumePDF.FONT, "I", 7)
                 pdf.set_x(LEFT)
                 pdf.multi_cell(CONTENT_W, 3, line)
                 i += 1
@@ -103,7 +110,7 @@ class PDFGenerator:
 
             # Bullet points
             if line.startswith("- "):
-                pdf.set_font("Arial", "", 7)
+                pdf.set_font(ResumePDF.FONT, "", 7)
                 bullet_text = line[2:]
                 pdf.set_x(LEFT)
                 pdf.cell(3, 3, "•")
@@ -115,19 +122,19 @@ class PDFGenerator:
             if ":" in line and not line.startswith("-") and len(line) > 20:
                 parts = line.split(":", 1)
                 if len(parts) == 2 and len(parts[0]) < 45:
-                    pdf.set_font("Arial", "B", 7)
+                    pdf.set_font(ResumePDF.FONT, "B", 7)
                     label = parts[0] + ":"
                     label_w = pdf.get_string_width(label) + 1
                     pdf.set_x(LEFT)
                     pdf.cell(label_w, 3, label)
-                    pdf.set_font("Arial", "", 7)
+                    pdf.set_font(ResumePDF.FONT, "", 7)
                     pdf.multi_cell(CONTENT_W - label_w, 3, parts[1].strip())
                     i += 1
                     continue
 
             # Project header (bold, contains | with tech stack)
             if self._is_project_header(line):
-                pdf.set_font("Arial", "B", 7)
+                pdf.set_font(ResumePDF.FONT, "B", 7)
                 pdf.set_x(LEFT)
                 pdf.multi_cell(CONTENT_W, 3, line)
                 i += 1
@@ -139,7 +146,7 @@ class PDFGenerator:
                 continue
 
             # Default
-            pdf.set_font("Arial", "", 7)
+            pdf.set_font(ResumePDF.FONT, "", 7)
             pdf.set_x(LEFT)
             pdf.multi_cell(CONTENT_W, 3, line)
             i += 1
