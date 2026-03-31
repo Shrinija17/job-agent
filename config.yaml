@@ -84,6 +84,9 @@ scrapers:
   google_jobs:
     enabled: true
     max_results: 20
+  remote_boards:
+    enabled: true
+    max_results: 30
 
 top_n_to_tailor: 10
 

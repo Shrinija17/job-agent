@@ -36,6 +36,7 @@ def run_scrapers(config: dict) -> list:
         YCJobsScraper,
         GreenhouseLeverScraper,
         GoogleJobsScraper,
+        RemoteBoardsScraper,
     )
 
     scrapers_config = config.get("scrapers", {})
@@ -48,6 +49,7 @@ def run_scrapers(config: dict) -> list:
         "builtin": BuiltInScraper,
         "yc_jobs": YCJobsScraper,
         "greenhouse_lever": GreenhouseLeverScraper,
+        "remote_boards": RemoteBoardsScraper,
         "google_jobs": GoogleJobsScraper,
     }
 
