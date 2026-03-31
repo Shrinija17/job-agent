@@ -6,21 +6,21 @@ linkedin.com/in/shrinija-kummari | github.com/Shrinija17
 SUMMARY
 ================================================================================
 
-Dynamic Growth & Demand Marketing professional with 2+ years of experience in driving growth strategy, user acquisition, and demand generation through data-driven campaigns and funnel optimization at a YC-backed fintech startup and EA Games. Proven ability to build automated marketing analytics dashboards, implement marketing attribution systems, and deploy AI-powered content engines that improved conversion and demand outcomes by 40+ customers per quarter. Combines strategic business acumen with hands-on technical proficiency in Python, SQL, BigQuery, and AI/ML to scale marketing performance and drive demand from zero to one.
+Growth and Demand Marketing Manager with 2+ years of experience driving full-funnel marketing strategy, demand generation, and customer acquisition for a YC-backed fintech startup and EA Games. Leveraged data-driven insights to optimize campaigns, building automated analytics dashboards and marketing attribution systems that improved conversion by 40+ customers per quarter and demonstrated clear ROI. Combines MBA-level business strategy with hands-on technical skills in Python, SQL, BigQuery, and AI/ML to scale growth engines and optimize performance marketing.
 
 ================================================================================
 SKILLS
 ================================================================================
 
-Growth & Demand Marketing: Growth Strategy, Demand Generation, Funnel Optimization, A/B Testing, Conversion Rate Optimization (CRO), User Acquisition, PLG (Product-Led Growth), Lifecycle Marketing, Retention Analysis, Cohort Analysis
+Growth & Demand Marketing: Growth Strategy, Demand Generation, Customer Acquisition, Full-Funnel Marketing Strategy, Performance Marketing, A/B Testing, Conversion Rate Optimization (CRO), Lifecycle Marketing, Retention Analysis, Cohort Analysis
 
-Marketing Analytics & Performance: Marketing Attribution, Campaign Performance Analysis, ROI Analysis, CAC/LTV Modeling, Google Analytics 4, SEMrush, UTM Tracking, Multi-Touch Attribution
+Marketing Analytics & ROI: Marketing Analytics, Campaign Performance Analysis, ROI Analysis, CAC/LTV Modeling, Multi-Touch Attribution, Google Analytics 4, UTM Tracking, Data-Driven Insights, SEMrush
 
-Content & SEO Strategy: SEO/AEO Strategy, Content Marketing, Programmatic SEO, Competitive Intelligence, Social Media Strategy (LinkedIn, YouTube, Instagram, X), Organic Growth
+AI & Marketing Automation: AI-Powered Marketing Automation, Large Language Models (LLMs), Prompt Engineering, Retrieval-Augmented Generation (RAG), Multi-Agent AI Systems, Generative AI for Content, ChatGPT/Claude/Gemini for Marketing
 
-AI & Automation: Large Language Models (LLMs), Prompt Engineering, AI-Powered Marketing Automation, Generative AI, Retrieval-Augmented Generation (RAG), Multi-Agent AI Systems, MCP (Model Context Protocol), ChatGPT/Claude/Gemini for Marketing
+Content & SEO Strategy: SEO/AEO Strategy, Content Strategy, Content Marketing, Programmatic SEO, Competitive Intelligence, Social Media Strategy (LinkedIn, YouTube, Instagram, X)
 
-Data & Technical: Python (Pandas, NumPy, Plotly), SQL (BigQuery, CTEs, Window Functions), Google Cloud Platform (Cloud Run, Cloud Functions, BigQuery), Streamlit, ETL Pipelines, API Integrations
+Data & Technical Tools: Python (Pandas, NumPy, Plotly), SQL (BigQuery, CTEs, Window Functions), Google Cloud Platform (Cloud Run, Cloud Functions, BigQuery), ETL Pipelines, API Integrations, CRM Analytics
 
 Visualization & BI: Tableau, Power BI, Streamlit Dashboards, Plotly, Advanced Excel (Pivot Tables, VLOOKUP)
 
@@ -31,28 +31,28 @@ EXPERIENCE
 JUSTPAID (YC W23) — FinTech
 Growth & Demand Marketing Manager | Jul 2025 – Present | Remote, USA
 
-- Drove growth and demand strategy for an AI-native billing platform, analyzing acquisition funnels and implementing optimization initiatives that significantly improved conversion outcomes by 40+ customers per quarter.
-- Developed a real-time marketing analytics dashboard (Streamlit + BigQuery + Cloud Run) consolidating campaign performance data from 4 social platforms (YouTube, Instagram, LinkedIn, X), enhancing demand generation tracking and replacing 10+ hours/week of manual reporting.
-- Spearheaded the development of an AI-powered content automation pipeline using LLMs, effectively scaling content output 3x and supporting demand generation efforts without additional headcount.
-- Defined and monitored KPI frameworks for CAC, LTV, conversion rates, and channel ROI across diverse paid and organic demand generation campaigns.
-- Led SEO/AEO strategy using SEMrush, conducting competitive keyword research, content gap analysis, and AI answer engine optimization to capture emerging search channels and drive organic demand.
-- Engineered a marketing attribution system to accurately measure channel-level revenue contribution, enabling data-backed budget allocation decisions for demand marketing initiatives.
-- Automated daily data collection pipelines via Cloud Functions + Cloud Scheduler, ensuring real-time analytics for demand generation leadership insights.
+- Drove full-funnel marketing strategy and demand generation for an AI-native billing platform, analyzing customer acquisition funnels and implementing optimizations that improved conversion outcomes by 40+ customers per quarter
+- Developed a real-time marketing analytics dashboard (Streamlit + BigQuery + Cloud Run) to provide data-driven insights from 4 social platforms (YouTube, Instagram, LinkedIn, X), enhancing campaign optimization and replacing 10+ hours/week of manual reporting
+- Developed an AI-powered content strategy and automation pipeline using LLMs, scaling content output 3x without additional headcount to support demand generation efforts
+- Designed and tracked KPI frameworks, including CAC, LTV, conversion rates, and channel ROI, to measure performance marketing effectiveness and optimize budget allocation
+- Led SEO and content strategy using SEMrush for competitive keyword research and AI answer engine optimization, capturing emerging search channels to drive organic growth and customer acquisition
+- Built a multi-touch marketing attribution system to measure channel-level revenue contribution, enabling data-driven budget allocation decisions for optimized ROI across campaigns
+- Automated daily data collection pipelines via Cloud Functions + Cloud Scheduler, ensuring always-current marketing analytics and data-driven insights for leadership
 
 ELECTRONIC ARTS (EA GAMES)
 Business Development Analyst — Analytics | Mar 2022 – Aug 2023 | India
 
-- Analyzed user engagement, retention, and conversion metrics to identify growth and demand generation opportunities; provided strategic recommendations that improved operational efficiency by 10%.
-- Designed automated Tableau dashboards tracking 15+ marketing KPIs, significantly reducing manual reporting effort by 40% and enabling real-time demand performance decisions.
-- Conducted A/B analysis on outreach strategies, creating targeted campaigns that successfully generated 40+ additional customer conversions per quarter and contributed to demand generation.
-- Presented growth insights and demand performance analysis to senior leadership, translating complex data into actionable go-to-market recommendations.
+- Analyzed user engagement, retention, and conversion metrics to identify growth opportunities, contributing to full-funnel marketing strategy and improving operational efficiency by 10%
+- Designed automated Tableau dashboards tracking 15+ KPIs for marketing analytics, reducing manual reporting by 40% and providing data-driven insights for real-time stakeholder decisions
+- Conducted A/B testing on demand generation strategies, creating targeted campaigns that generated 40+ additional customer acquisitions per quarter
+- Presented data-driven growth insights to senior leadership, translating complex marketing analytics into actionable go-to-market recommendations for campaign optimization
 
 CEIPAL SOLUTIONS PVT. LTD.
 Business Development Analyst | Mar 2021 – Mar 2022 | India
 
-- Optimized CRM analytics with advanced SQL queries, improving data retrieval efficiency by 30% and accelerating growth and demand reporting.
-- Analyzed sales funnel conversion trends and customer behavior data to design targeted outreach strategies, effectively boosting qualified leads and driving demand.
-- Collaborated with product teams to translate customer feedback into retention-driving product enhancements, contributing to overall customer lifecycle management.
+- Optimized CRM analytics with advanced SQL queries, improving data retrieval efficiency by 30% to accelerate growth reporting and inform customer acquisition strategies
+- Analyzed sales funnel conversion trends and customer behavior data to design targeted demand generation strategies, significantly boosting qualified leads
+- Collaborated with product teams to integrate customer feedback, contributing to full-funnel marketing strategy by driving retention-focused product enhancements
 
 ================================================================================
 PROJECTS

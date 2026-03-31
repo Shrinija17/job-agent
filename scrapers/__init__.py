@@ -6,6 +6,7 @@ from .yc_jobs import YCJobsScraper
 from .greenhouse_lever import GreenhouseLeverScraper
 from .google_jobs import GoogleJobsScraper
 from .remote_boards import RemoteBoardsScraper
+from .firecrawl_boards import FirecrawlBoardsScraper
 
 __all__ = [
     "Job",
@@ -17,4 +18,5 @@ __all__ = [
     "GreenhouseLeverScraper",
     "GoogleJobsScraper",
     "RemoteBoardsScraper",
+    "FirecrawlBoardsScraper",
 ]

@@ -87,6 +87,9 @@ scrapers:
   remote_boards:
     enabled: true
     max_results: 30
+  firecrawl_boards:
+    enabled: true
+    max_results: 50
 
 top_n_to_tailor: 10
 

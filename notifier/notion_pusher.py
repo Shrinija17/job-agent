@@ -39,12 +39,21 @@ class NotionPusher:
                     "linkedin": "LinkedIn",
                     "amazon": "Amazon",
                     "builtin": "BuiltIn",
-                    "google_jobs": "LinkedIn",  # map to closest
-                    "yc": "BuiltIn",
-                    "greenhouse": "BuiltIn",
-                    "lever": "BuiltIn",
+                    "yc": "YC",
+                    "greenhouse": "Greenhouse",
+                    "lever": "Lever",
+                    "google_jobs": "LinkedIn",
+                    "indeed": "Indeed",
+                    "glassdoor": "Glassdoor",
+                    "remotive": "Remotive",
+                    "powertofly": "PowerToFly",
+                    "arc.dev": "Arc.dev",
+                    "governmentjobs": "GovernmentJobs",
+                    "jobspresso": "Jobspresso",
+                    "ai-jobs": "AI-Jobs",
+                    "workingnomads": "WorkingNomads",
                 }
-                source = source_map.get(job.source, "LinkedIn")
+                source = source_map.get(job.source, job.source.title())
 
                 properties = {
                     "Job Title": {"title": [{"text": {"content": job.title[:100]}}]},

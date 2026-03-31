@@ -6,17 +6,17 @@ linkedin.com/in/shrinija-kummari | github.com/Shrinija17
 SUMMARY
 ================================================================================
 
-Results-driven Business Intelligence Developer with 2+ years of experience in designing, developing, and optimizing robust BI solutions, ETL pipelines, and data warehouses. Proficient in leveraging SQL, Python, Tableau, and cloud platforms like Google BigQuery to deliver actionable insights. Architected and maintained production-grade analytics platforms, demonstrating a proven ability to optimize data quality, enhance query performance, and translate complex data into clear, impactful business recommendations.
+Results-driven Business Intelligence Developer with 2+ years of expertise in designing, developing, maintaining, and optimizing robust BI solutions, ETL pipelines, and data warehouses. Proficient in SQL, Python, Tableau, and cloud data platforms (Google BigQuery, Cloud Run). Proven track record in developing production-grade analytics platforms, architecting data warehouse solutions, ensuring data quality, and translating complex data into actionable insights for diverse stakeholders.
 
 ================================================================================
 SKILLS
 ================================================================================
 
-BI & Data Warehousing: Dashboard Development, Data Warehouse Design (BigQuery, Redshift), Dimensional Modeling, Star/Snowflake Schema, Data Governance, Data Quality Management, KPI Development, Data Marts
-
-ETL & Data Engineering: ETL Pipeline Development, Data Modeling, Data Validation, Automated Data Collection, Data Pipeline Development, API Integrations (YouTube API, Meta Graph API, LinkedIn API), Workflow Automation
+BI & Data Warehousing: BI Solution Development, Dashboard Development, Data Warehouse Architecture & Design (BigQuery, Redshift), Dimensional Modeling, Star/Snowflake Schema, Data Governance, Data Quality Management, KPI Development
 
 SQL & Query Engineering: Advanced SQL (CTEs, Window Functions, Subqueries, Query Optimization), Google BigQuery, MySQL, PostgreSQL, AWS Redshift, Table Partitioning/Clustering
+
+ETL & Data Engineering: ETL Pipeline Development, Data Modeling, Data Validation, Automated Data Collection, API Integrations (YouTube API, Meta Graph API, LinkedIn API), Workflow Automation
 
 Visualization: Tableau, Power BI, Streamlit, Plotly, Advanced Excel (Pivot Tables, VLOOKUPs, VBA), Looker (familiar)
 
@@ -33,30 +33,30 @@ EXPERIENCE
 JUSTPAID (YC W23) — FinTech
 Business Intelligence Developer | Jul 2025 – Present | Remote, USA
 
-- Designed and developed a production-grade Business Intelligence platform (Streamlit + BigQuery + Cloud Run) with automated data ingestion from 4 platform APIs, providing real-time analytics and BI solutions to 15+ stakeholders across engineering, finance, and marketing
-- Architected and optimized the BigQuery data warehouse, implementing dimensional modeling with partitioned and clustered tables to enhance query performance and reduce operational costs
-- Developed 11 reusable Plotly visualization functions for standardized BI dashboard generation, presenting key metrics such as engagement trends, follower growth, and content performance breakdowns
-- Developed robust automated ETL pipelines using Google Cloud Functions and Cloud Scheduler for daily data collection, eliminating manual data gathering and ensuring the delivery of always-current BI solutions
-- Implemented comprehensive data validation and reconciliation checks, significantly reducing data inconsistencies by over 30% and improving the accuracy of all BI reports
-- Developed executive-ready BI dashboards and recurring reports, effectively communicating critical KPIs, trends, and performance insights to cross-functional teams
-- Optimized complex SQL queries and refined data models, improving query performance by 20-30% and significantly reducing BigQuery compute costs
+- Developed and architected a production-grade BI platform (Streamlit + BigQuery + Cloud Run) featuring automated data ingestion from 4 platform APIs, delivering real-time analytics to 15+ stakeholders.
+- Architected a BigQuery data warehouse, designing optimal schema with partitioned and clustered tables to enhance query performance and reduce compute costs.
+- Developed 11 reusable Plotly visualization functions to standardize chart generation for key metrics like engagement trends, follower growth, and content performance.
+- Engineered automated ETL pipelines using Cloud Functions and Cloud Scheduler, ensuring daily data collection and maintaining real-time data freshness for dashboards.
+- Implemented robust data validation and reconciliation checks, reducing data inconsistencies by over 30% and significantly improving reporting accuracy.
+- Developed executive-ready BI dashboards and recurring reports, effectively communicating critical KPIs, trends, and performance insights to cross-functional teams.
+- Optimized complex SQL queries and underlying data models, enhancing query performance by 20-30% and achieving significant compute cost reductions.
 
 ELECTRONIC ARTS (EA GAMES)
 BI / Resources Analyst | Mar 2022 – Aug 2023 | India
 
-- Developed automated Tableau BI dashboards utilizing advanced SQL (CTEs, Window Functions) to track 15+ workforce KPIs, reducing manual reporting by 30% and enabling real-time HR decision-making with data-driven insights
-- Developed a Python-based anomaly detection model that identified 98% of data inconsistencies, reducing manual data quality corrections from 120 to 30 errors/month
-- Automated ETL workflows using Python, significantly cutting batch data processing time from 5 hours to 3 hours for improved data availability
-- Analyzed complex workforce trends, attrition, and engagement scores, developing data-backed strategies that improved organizational productivity by 10%
-- Led monthly stakeholder presentations, effectively showcasing BI dashboards with custom KPIs and SQL-driven analytics to guide strategic decision-making
+- Developed automated Tableau dashboards leveraging advanced SQL (CTEs, Window Functions) to track 15+ workforce KPIs, reducing manual reporting by 30% and enabling real-time HR decision-making.
+- Developed a Python anomaly detection model, accurately identifying 98% of data inconsistencies and reducing manual corrections from 120 to 30 errors per month.
+- Automated ETL workflows using Python, optimizing batch processing time from 5 hours to 3 hours.
+- Conducted in-depth analysis of workforce trends, attrition, and engagement scores, proposing a data-backed restructuring strategy that improved productivity by 10%.
+- Presented monthly stakeholder insights using developed BI dashboards and SQL-driven analytics, ensuring data-informed decision-making.
 
 CEIPAL SOLUTIONS PVT. LTD.
 Business Development Analyst — BI & Reporting | Mar 2021 – Mar 2022 | India
 
-- Optimized complex SQL queries for CRM analytics, improving data retrieval efficiency by 30% and accelerating the delivery of BI reports to stakeholders
-- Designed and implemented reusable data models and standardized BI reporting logic, enabling multiple teams to enhance planning and forecasting accuracy
-- Developed KPI-driven BI dashboards to support strategic planning, accurate forecasting, and agile operational decision-making
-- Performed root-cause analysis for data pipeline failures, significantly improving system stability and ensuring data reliability for BI solutions
+- Optimized SQL queries for CRM analytics, enhancing data retrieval efficiency by 30% and accelerating critical stakeholder reporting.
+- Designed reusable data models and implemented standardized reporting logic utilized by multiple teams for strategic planning and forecasting.
+- Developed comprehensive KPI dashboards to support critical planning, forecasting, and operational decision-making processes.
+- Performed root-cause analysis for data pipeline failures, significantly improving system stability and ensuring data reliability.
 
 ================================================================================
 PROJECTS
