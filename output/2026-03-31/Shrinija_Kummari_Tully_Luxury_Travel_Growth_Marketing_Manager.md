@@ -6,17 +6,22 @@ linkedin.com/in/shrinija-kummari | github.com/Shrinija17
 SUMMARY
 ================================================================================
 
-Experienced Growth Marketing Manager with 2+ years driving successful user acquisition, customer journey optimization, and data-driven campaign strategy, particularly within high-growth environments like a YC-backed fintech and EA Games. Proven ability to implement advanced marketing attribution systems, AI-powered content automation, and real-time analytics dashboards that significantly boosted customer conversions. Leverages an MBA-level strategic mindset combined with hands-on technical expertise in Python, SQL, and AI/ML to scale robust growth engines and maximize marketing ROI.
+Growth Marketing Manager with 2+ years of experience driving user acquisition, optimizing the customer journey and funnel, and executing data-driven campaign strategies. Proven expertise in leveraging analytics platforms, A/B testing, and SEO to enhance performance marketing and generate strong ROI. Built advanced AI/ML-powered marketing automation systems and analytics solutions that boosted conversion by 40+ customers per quarter. Combines strategic vision with hands-on technical skills in Python, SQL, and AI/ML to effectively manage and scale growth initiatives.
 
 ================================================================================
 SKILLS
 ================================================================================
 
-Growth Marketing & Strategy: Growth Strategy, User Acquisition, Funnel Optimization, Conversion Rate Optimization (CRO), A/B Testing, Lifecycle Marketing, Retention Analysis, Cohort Analysis
-Marketing Analytics & ROI: Marketing Attribution, Campaign Performance Analysis, CAC/LTV Modeling, ROI Analysis, Google Analytics 4, SEMrush, UTM Tracking, Multi-Touch Attribution
-AI & Marketing Automation: Large Language Models (LLMs), AI-Powered Marketing Automation, Prompt Engineering, Retrieval-Augmented Generation (RAG), Multi-Agent AI Systems, MCP (Model Context Protocol), ChatGPT/Claude/Gemini for Marketing
-Data & Technical: Python (Pandas, NumPy, Plotly), SQL (BigQuery, CTEs, Window Functions), Google Cloud Platform (Cloud Run, Cloud Functions, BigQuery), ETL Pipelines, API Integrations, Streamlit
+Growth & Acquisition: Growth Strategy, User Acquisition, Funnel Optimization, A/B Testing, Conversion Rate Optimization (CRO), Lifecycle Marketing, Retention Analysis, Cohort Analysis, PLG (Product-Led Growth)
+
+Marketing Analytics: Campaign Performance Analysis, ROI Analysis, Marketing Attribution, CAC/LTV Modeling, Google Analytics 4, SEMrush, UTM Tracking, Multi-Touch Attribution
+
+AI & Automation: AI-Powered Marketing Automation, Large Language Models (LLMs), Prompt Engineering, Retrieval-Augmented Generation (RAG), Multi-Agent AI Systems, MCP (Model Context Protocol), ChatGPT/Claude/Gemini for Marketing
+
+Data & Technical: Python (Pandas, NumPy, Plotly), SQL (BigQuery, CTEs, Window Functions), Google Cloud Platform (Cloud Run, Cloud Functions, BigQuery), Streamlit, ETL Pipelines, API Integrations
+
 Content & SEO: SEO/AEO Strategy, Content Marketing, Programmatic SEO, Competitive Intelligence, Social Media Strategy (LinkedIn, YouTube, Instagram, X)
+
 Visualization & BI: Tableau, Power BI, Streamlit Dashboards, Plotly, Advanced Excel (Pivot Tables, VLOOKUP)
 
 ================================================================================
@@ -26,28 +31,28 @@ EXPERIENCE
 JUSTPAID (YC W23) — FinTech
 Growth Marketing Manager | Jul 2025 – Present | Remote, USA
 
-- Drove comprehensive growth strategies for an AI-native platform, meticulously analyzing acquisition funnels and implementing data-driven optimizations that significantly boosted customer conversion rates.
-- Developed and deployed real-time marketing analytics dashboards, integrating data from diverse social platforms to provide leadership with actionable insights and improve reporting efficiency.
-- Pioneered AI-powered content automation pipelines utilizing LLMs, effectively scaling content output 3x and supporting ambitious growth marketing initiatives.
-- Established and managed robust KPI frameworks for key metrics including CAC, LTV, and channel ROI, guiding strategic resource allocation for paid and organic campaigns.
-- Led advanced SEO/AEO strategies, performing competitive keyword research and leveraging AI for answer engine optimization to capture new search channels and drive qualified leads.
-- Engineered a multi-touch marketing attribution system, providing critical insights into channel-level revenue contribution and informing data-backed budget allocation for optimal marketing spend.
-- Automated critical daily data collection and ETL pipelines, ensuring consistent data integrity and enabling always-current analytics for strategic decision-making.
+- Drove comprehensive growth marketing strategy for an AI-native billing platform, performing funnel optimization and implementing data-driven campaign strategies that improved user acquisition and conversion outcomes by 40+ customers per quarter
+- Developed real-time marketing analytics platforms and dashboards (Streamlit + BigQuery + Cloud Run) consolidating data from digital marketing channels to provide actionable insights for campaign performance and ROI
+- Developed AI/ML-powered content automation pipelines utilizing Large Language Models, significantly scaling content output and enhancing digital marketing efficiency
+- Managed and tracked key performance indicators (KPIs) for CAC, LTV, conversion rates, and channel ROI, ensuring data-driven decisions across all growth marketing initiatives
+- Led SEO strategy, conducting competitive keyword research and content gap analysis to optimize user acquisition through search channels, capturing new lead generation opportunities
+- Built a robust marketing attribution system to accurately measure channel ROI and inform data-backed budget allocation, enhancing overall campaign performance
+- Automated critical data collection pipelines, ensuring current and reliable data for all marketing analytics platforms and strategic decision-making
 
 ELECTRONIC ARTS (EA GAMES)
 Business Development Analyst — Analytics | Mar 2022 – Aug 2023 | India
 
-- Analyzed key growth metrics, including user engagement, retention, and conversion, to identify strategic opportunities that enhanced marketing operational efficiency.
-- Designed and implemented automated Tableau dashboards, significantly streamlining reporting and providing real-time data for stakeholder growth marketing decisions.
-- Executed A/B testing on marketing outreach strategies, developing targeted campaigns that successfully drove substantial customer conversions.
-- Presented compelling growth insights and go-to-market recommendations to senior leadership, translating complex analytical findings into actionable strategies.
+- Analyzed user engagement, customer retention, and conversion metrics to identify growth opportunities, contributing to funnel optimization and improved operational efficiency by 10%
+- Designed automated analytics platforms using Tableau, tracking 15+ KPIs to provide real-time insights for strategic decision-making and campaign performance analysis
+- Conducted A/B testing on outreach strategies, developing targeted campaigns that generated 40+ additional customer conversions per quarter, boosting user acquisition
+- Presented data-driven growth insights to senior leadership, translating complex analytics into actionable go-to-market recommendations for user acquisition and market expansion
 
 CEIPAL SOLUTIONS PVT. LTD.
 Business Development Analyst | Mar 2021 – Mar 2022 | India
 
-- Optimized CRM analytics leveraging advanced SQL queries, enhancing data retrieval efficiency and expediting critical growth reporting.
-- Analyzed sales funnel conversion trends and customer behavior to design targeted outreach strategies, significantly boosting qualified lead generation.
-- Collaborated cross-functionally to translate customer feedback into product enhancements, directly contributing to customer retention and loyalty.
+- Optimized CRM analytics with advanced SQL queries to enhance data retrieval efficiency by 30%, accelerating growth reporting and supporting data-driven decisions
+- Analyzed sales funnel conversion trends and customer journey data to design targeted outreach strategies, significantly boosting qualified lead generation
+- Collaborated with product teams to integrate customer feedback into product enhancements, directly supporting customer retention initiatives
 
 ================================================================================
 PROJECTS

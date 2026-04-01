@@ -6,24 +6,18 @@ linkedin.com/in/shrinija-kummari | github.com/Shrinija17
 SUMMARY
 ================================================================================
 
-Highly analytical Business Intelligence Engineer with 2+ years of experience designing and building robust BI platforms, ETL pipelines, and delivering actionable insights from large-scale datasets. Proven expertise in SQL, Python, and cloud data warehouses (BigQuery, Redshift) to architect production-grade analytics solutions. Skilled in optimizing query performance, ensuring data quality and reliability, and translating complex data into clear, executive-level recommendations to drive business decisions.
+Accomplished Business Intelligence Engineer with 2+ years of experience designing and engineering robust BI platforms, building scalable ETL pipelines, and delivering actionable data insights using SQL, Python, Tableau, and cloud data warehouses. Successfully built production-grade analytics solutions on Google BigQuery and Cloud Run, driving real-time data access for stakeholders. Proven ability to optimize data systems, enhance data quality, and translate complex analytical findings into strategic recommendations for business growth.
 
 ================================================================================
 SKILLS
 ================================================================================
 
-BI & Data Warehousing: Dimensional Modeling, Data Warehouse Design (BigQuery, Redshift), KPI Development, Data Governance, Data Quality Management, Star/Snowflake Schema, Dashboard Development
-
-SQL & Query Engineering: Advanced SQL (CTEs, Window Functions, Subqueries, Query Optimization), Google BigQuery, AWS Redshift, MySQL, PostgreSQL, Table Partitioning/Clustering
-
-ETL & Data Engineering: ETL Pipeline Development, Data Modeling, Data Validation, Workflow Automation, Automated Data Collection, API Integrations (YouTube API, Meta Graph API, LinkedIn API)
-
-Cloud & Infrastructure: Google Cloud Platform (BigQuery, Cloud Run, Cloud Functions, Cloud Scheduler), AWS (S3, EC2, Redshift), Docker, Git
-
+Data Warehousing & BI Engineering: Data Warehouse Design (BigQuery, Redshift), Dimensional Modeling, Star/Snowflake Schema, Data Governance, Data Quality Management, KPI Development, Dashboard Development
+SQL & Query Optimization: Advanced SQL (CTEs, Window Functions, Subqueries, Query Optimization), Google BigQuery, MySQL, PostgreSQL, AWS Redshift, Table Partitioning/Clustering
+ETL & Data Engineering: ETL Pipeline Development, Data Modeling, Data Validation, Automated Data Collection, API Integrations (YouTube API, Meta Graph API, LinkedIn API), Workflow Automation
+Cloud Platforms & Infrastructure: Google Cloud Platform (BigQuery, Cloud Run, Cloud Functions, Cloud Scheduler), AWS (S3, EC2, Redshift), Docker, Git
 Programming & Analytics: Python (Pandas, NumPy, Plotly, Matplotlib), Statistical Analysis, Anomaly Detection, Regression Analysis, Hypothesis Testing, A/B Testing
-
-Visualization: Tableau, Power BI, Streamlit, Plotly, Advanced Excel (Pivot Tables, VLOOKUPs, VBA), Looker (familiar)
-
+Data Visualization: Tableau, Power BI, Streamlit, Plotly, Advanced Excel (Pivot Tables, VLOOKUPs, VBA), Looker (familiar)
 AI & Emerging Technologies: Large Language Models (LLMs), AI-Powered Analytics Automation, Prompt Engineering, Retrieval-Augmented Generation (RAG), Natural Language Processing (NLP), Vector Databases
 
 ================================================================================
@@ -33,30 +27,30 @@ EXPERIENCE
 JUSTPAID (YC W23) — FinTech
 Business Intelligence Engineer | Jul 2025 – Present | Remote, USA
 
-- Architected and built a production-grade BI platform (Streamlit + BigQuery + Cloud Run), establishing automated data ingestion from 4 platform APIs and delivering real-time analytics to 15+ cross-functional stakeholders.
-- Designed and implemented a scalable BigQuery data warehouse with optimized table structures (partitioned and clustered) to enhance query performance and manage compute costs efficiently.
-- Developed reusable visualization functions to standardize reporting for key performance indicators, providing clear insights into engagement trends and content performance.
-- Engineered automated ETL pipelines using Cloud Functions and Cloud Scheduler to ensure daily data collection, eliminating manual processes and maintaining data freshness for dashboards.
-- Implemented robust data validation and reconciliation checks, which reduced data inconsistencies by over 30% and significantly improved reporting accuracy.
-- Developed executive-ready dashboards and recurring reports, translating complex data into actionable insights for cross-functional teams and leadership.
-- Optimized complex SQL queries and data models, achieving a 20-30% improvement in query performance and reducing compute resource costs.
+- Engineered and deployed a production-grade Business Intelligence platform (Streamlit + BigQuery + Cloud Run), integrating automated data ingestion from 4 platform APIs to deliver real-time analytics for 15+ cross-functional stakeholders.
+- Architected a scalable BigQuery data warehouse, designing core tables (partitioned and clustered) to optimize for query performance and reduce compute costs.
+- Developed 11 reusable Plotly visualization functions, enabling standardized chart generation for key metrics like engagement trends, growth, and content performance.
+- Engineered automated ETL pipelines using Cloud Functions and Cloud Scheduler for daily data collection, ensuring always-current dashboards and eliminating manual data processes.
+- Implemented robust data validation and reconciliation checks, reducing data inconsistencies by over 30% and significantly improving reporting accuracy.
+- Created executive-ready dashboards and recurring reports, effectively communicating critical KPIs, trends, and performance insights to cross-functional teams.
+- Optimized complex SQL queries and refined data models, improving query performance by 20-30% and significantly reducing cloud compute costs.
 
 ELECTRONIC ARTS (EA GAMES)
 BI / Resources Analyst | Mar 2022 – Aug 2023 | India
 
-- Developed automated Tableau dashboards leveraging advanced SQL (CTEs, Window Functions) to track 15+ workforce KPIs, reducing manual reporting by 30% and enabling real-time decision-making.
-- Engineered a Python-based anomaly detection model that identified 98% of data inconsistencies, reducing manual data correction efforts significantly.
-- Automated ETL workflows using Python, which reduced data processing time by 40% (from 5 to 3 hours).
-- Performed in-depth data analysis on workforce trends and engagement, proposing data-backed strategies that improved productivity by 10%.
-- Presented monthly insights to stakeholders, utilizing BI dashboards and SQL-driven analytics to communicate key performance indicators and trends.
+- Engineered automated Tableau dashboards utilizing advanced SQL (CTEs, Window Functions) to track 15+ workforce KPIs, reducing manual reporting by 30% and enabling real-time HR decision-making.
+- Developed a Python-based anomaly detection model that identified 98% of data inconsistencies, reducing manual correction efforts significantly.
+- Automated ETL workflows using Python, reducing batch processing time by 40% (from 5 hours to 3 hours).
+- Analyzed complex workforce trends, attrition, and engagement scores, proposing a data-backed restructuring strategy that improved productivity by 10%.
+- Led monthly stakeholder presentations, effectively communicating data-driven insights through custom BI dashboards and SQL analytics.
 
 CEIPAL SOLUTIONS PVT. LTD.
 Business Development Analyst — BI & Reporting | Mar 2021 – Mar 2022 | India
 
-- Optimized SQL queries for CRM analytics, improving data retrieval efficiency by 30% and accelerating reporting for stakeholders.
-- Designed reusable data models and standardized reporting logic, facilitating consistent planning and forecasting across multiple teams.
-- Developed KPI dashboards to support operational decision-making, planning, and forecasting activities.
-- Conducted root-cause analysis for data pipeline failures, enhancing system stability and ensuring data reliability.
+- Optimized SQL queries for CRM analytics, improving data retrieval efficiency by 30% and accelerating stakeholder reporting cycles.
+- Designed reusable data models and standardized reporting logic, enhancing consistency and efficiency for cross-functional planning and forecasting.
+- Built and maintained KPI dashboards, providing critical data insights to support planning, forecasting, and operational decision-making.
+- Performed root-cause analysis for data pipeline failures, enhancing system stability and improving overall data reliability.
 
 ================================================================================
 PROJECTS

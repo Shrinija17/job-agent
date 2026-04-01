@@ -97,7 +97,9 @@ resume_catalog_dir: "data/resumes/"
 
 notion:
   enabled: true
-  database_id: "dca3d96ee6a04180beb0de06eafb2918"
+  database_id: "37ee728874894648b4a3f0a8b973dd74"
+  command_center_id: "37ee728874894648b4a3f0a8b973dd74"
+  legacy_tracker_id: "dca3d96ee6a04180beb0de06eafb2918"
   sponsorship_db_id: "999e2efa5a4745f4b573b84198a6784e"
   auto_apply_db_id: "ad67fcfd24a94befbdb628592dc736e1"
 
