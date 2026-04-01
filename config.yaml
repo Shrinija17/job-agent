@@ -98,6 +98,8 @@ resume_catalog_dir: "data/resumes/"
 notion:
   enabled: true
   database_id: "dca3d96ee6a04180beb0de06eafb2918"
+  sponsorship_db_id: "999e2efa5a4745f4b573b84198a6784e"
+  auto_apply_db_id: "ad67fcfd24a94befbdb628592dc736e1"
 
 email:
   recipient: "shrinijakummari1997@gmail.com"

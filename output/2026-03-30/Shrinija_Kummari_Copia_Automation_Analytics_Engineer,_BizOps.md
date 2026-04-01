@@ -6,19 +6,19 @@ linkedin.com/in/shrinija-kummari | github.com/Shrinija17
 SUMMARY
 ================================================================================
 
-Analytics Engineer with 2+ years of experience designing and building robust BI infrastructure, automating GTM operations, and delivering data analysis to advise leadership. Proven ability to leverage SQL, Python, and cloud platforms to streamline data workflows and develop internal AI applications. Successfully reduced manual reporting by 40% and enhanced data accuracy, underpinned by a strong foundation in statistical analysis, AI/ML, and data engineering with an M.S. in Data Analytics.
+Results-oriented Analytics Engineer with 2+ years of experience in automating GTM operations and building robust BI infrastructure using SQL, Python, and cloud-native tools. Proven ability to advise leadership with data analysis, deliver data-driven insights, and reduce manual reporting through efficient ETL pipelines and analytical systems. Strong foundation in statistical analysis, AI/ML, and data engineering, with an M.S. in Data Analytics, enabling the design of internal AI applications.
 
 ================================================================================
 SKILLS
 ================================================================================
 
-Cloud & Infrastructure: Google Cloud Platform (BigQuery, Cloud Run, Cloud Functions, Cloud Scheduler), AWS (S3, EC2), Docker, Git, CI/CD
-SQL & Databases: Advanced SQL (Joins, CTEs, Window Functions, Query Optimization), Google BigQuery, MySQL, PostgreSQL, AWS Redshift, Data Warehousing, Data Modeling, BI Infrastructure Design
-Programming & Automation: Python (Pandas, NumPy, Scikit-learn), ETL Pipeline Development, Workflow Automation, API Integrations, Web Scraping (Playwright), GTM Operations Automation
-AI & Machine Learning: Large Language Models (LLMs), Prompt Engineering, Retrieval-Augmented Generation (RAG), Natural Language Processing (NLP), Sentiment Analysis, Vector Databases (ChromaDB), LangChain, Internal AI Application Design
-Visualization & BI: Tableau, Power BI, Streamlit, Plotly, Advanced Excel (Pivot Tables, VLOOKUPs, VBA), Dashboard Development, Leadership Data Analysis
-Data Analysis & Modeling: Exploratory Data Analysis (EDA), Statistical Analysis (t-test, Chi-squared, Regression), Hypothesis Testing, A/B Testing, Cohort Analysis, KPI Development, Trend Analysis, Anomaly Detection, Advising Leadership with Data
-Communication: Data Storytelling, Stakeholder Presentations, Executive Reporting, Cross-Functional Collaboration, Technical Documentation
+Cloud & Infrastructure: Google Cloud Platform (BigQuery, Cloud Run, Cloud Functions, Cloud Scheduler), AWS (S3, EC2), Docker, Git, CI/CD, BI Infrastructure
+Programming & Automation: Python (Pandas, NumPy, Matplotlib, Plotly, Scikit-learn), ETL Pipeline Development, Workflow Automation, API Integrations, Web Scraping (Playwright), Automating GTM Operations
+SQL & Databases: Advanced SQL (Joins, CTEs, Window Functions, Query Optimization), Google BigQuery, MySQL, PostgreSQL, AWS Redshift, Data Warehousing, Data Modeling
+AI & Machine Learning: Large Language Models (LLMs), Prompt Engineering, Retrieval-Augmented Generation (RAG), Natural Language Processing (NLP), Sentiment Analysis, Vector Databases (ChromaDB), LangChain, AI Applications Design
+Data Analysis & Modeling: Exploratory Data Analysis (EDA), Statistical Analysis (t-test, Chi-squared, Regression), Hypothesis Testing, A/B Testing, Cohort Analysis, KPI Development, Trend Analysis, Anomaly Detection, Data-Driven Insights
+Visualization & BI: Tableau, Power BI, Streamlit, Plotly, Advanced Excel (Pivot Tables, VLOOKUPs, VBA), Dashboard Development
+Communication: Data Storytelling, Stakeholder Presentations, Executive Reporting, Cross-Functional Collaboration, Technical Documentation, Advising Leadership
 
 ================================================================================
 EXPERIENCE
@@ -27,29 +27,29 @@ EXPERIENCE
 JUSTPAID (YC W23) — FinTech
 Analytics Engineer | Jul 2025 – Present | Remote, USA
 
-- Engineered a centralized analytics dashboard and BI infrastructure (Streamlit + BigQuery + Cloud Run), consolidating data from 4 platform APIs to automate GTM operations with real-time KPI tracking.
-- Designed and optimized BigQuery data warehouse as core BI infrastructure, leveraging partitioned/clustered tables to enhance query performance and reduce compute costs.
-- Automated daily data collection pipelines via Cloud Functions + Cloud Scheduler, streamlining data ingestion for GTM operations and eliminating 10+ hours/week of manual data gathering.
-- Developed complex SQL queries and data models to provide actionable data analysis on engagement rates and growth trends, advising marketing leadership.
-- Implemented robust anomaly detection and data validation checks, reducing data inconsistencies by 30%+ and ensuring high data accuracy for BI infrastructure.
-- Created 11 reusable Plotly visualization functions for standardized chart generation, enhancing the BI infrastructure's reporting capabilities.
-- Partnered with GTM and leadership teams to translate data insights into actionable business recommendations, effectively advising leadership with data analysis.
+- Automated GTM operations by building a centralized analytics dashboard (Streamlit + BigQuery + Cloud Run) consolidating data from 4 platform APIs with real-time KPI tracking.
+- Designed and optimized BigQuery data warehouse with partitioned/clustered tables, significantly improving query performance and reducing compute costs, contributing to robust BI infrastructure.
+- Automated daily data collection pipelines via Cloud Functions + Cloud Scheduler, eliminating 10+ hours/week of manual data gathering, crucial for efficient GTM operations.
+- Wrote complex SQL queries to compute engagement rates, growth trends, and content performance metrics, enabling data-driven insights to advise leadership with data analysis.
+- Built anomaly detection and data validation checks, reducing data inconsistencies by 30%+ and improving reporting accuracy for critical BI infrastructure.
+- Created 11 reusable Plotly visualization functions for standardized chart generation across all platform dashboards, enhancing the overall BI infrastructure.
+- Partnered with marketing, product, and leadership teams to translate data insights into actionable business recommendations, directly advising leadership with data analysis.
 
 ELECTRONIC ARTS (EA GAMES)
 Data Analyst — Strategy & Analytics | Mar 2022 – Aug 2023 | India
 
-- Extracted and analyzed performance data using complex SQL queries for key performance indicators, advising leadership on strategies that improved operational productivity by 10%.
-- Built automated Tableau dashboards to consolidate 15+ workforce KPIs, serving as critical BI infrastructure that reduced manual reporting by 30% and enabled real-time decision-making.
-- Developed a Python anomaly detection model to maintain data quality within BI infrastructure, identifying 98% of data inconsistencies and reducing manual corrections by 75%.
-- Led monthly stakeholder presentations, showcasing data-driven insights to leadership that supported a 12% reduction in attrition.
+- Extracted and analyzed performance data using complex SQL queries to calculate KPIs, enabling a 10% improvement in operational productivity and directly advising leadership with data analysis.
+- Built automated Tableau dashboards consolidating 15+ workforce KPIs, reducing manual reporting by 30% and enabling real-time decision-making for HR leadership, enhancing BI infrastructure.
+- Developed a Python anomaly detection model identifying 98% of data inconsistencies, reducing manual corrections from 120 to 30 errors/month, contributing to reliable BI infrastructure.
+- Led monthly stakeholder presentations, showcasing data-driven insights that helped leadership reduce attrition by 12%, effectively advising leadership with data analysis.
 
 CEIPAL SOLUTIONS PVT. LTD.
 Data Analyst — Reporting Automation | Mar 2021 – Mar 2022 | India
 
-- Automated ETL workflows using Python and SQL, reducing batch processing time from 5 hours to 3 hours per cycle for improved BI infrastructure efficiency.
-- Designed reusable data models and standardized reporting logic, contributing to robust BI infrastructure used by multiple teams for planning and forecasting.
-- Optimized SQL queries for CRM analytics, improving data retrieval efficiency by 30% and enhancing GTM operational data access.
-- Performed root-cause analysis and debugging for data pipeline failures, ensuring stability and data reliability within the BI infrastructure.
+- Automated ETL workflows using Python and SQL, reducing batch processing time from 5 hours to 3 hours per cycle, supporting scalable BI infrastructure.
+- Designed reusable data models and standardized reporting logic used by multiple teams for planning and forecasting, foundational for robust BI infrastructure.
+- Optimized SQL queries for CRM analytics, improving data retrieval efficiency by 30%, crucial for effective data analysis.
+- Performed root-cause analysis and debugging for data pipeline failures, improving system stability and data reliability within the BI infrastructure.
 
 ================================================================================
 PROJECTS
